@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'core',
     'corsheaders',
     'rest_framework',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -122,10 +123,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 REST_FRAMEWORK = {
-        "DEFAULT_PERMISSION_CLASSES": [
+    "DEFAULT_PERMISSION_CLASSES": (
         "rest_framework.permissions.DjangoModelPermissions",
         "rest_framework.permissions.IsAuthenticated",
-    ],
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
 }
-AUTH_USER_MODEL = "core.Usuario" 
-
+AUTH_USER_MODEL = "core.Usuario"
