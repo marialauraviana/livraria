@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'media',
     'core',
     'corsheaders',
     'rest_framework',
@@ -124,7 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-       
+
     ],
 }
 AUTH_USER_MODEL = "core.Usuario"
@@ -137,3 +138,11 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
 }
+
+MEDIA_URL = "http://localhost:8000/media/"
+
+MEDIA_ENDPOINT = "/media/"
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media_files/")
+
+FILE_UPLOAD_PERMISSIONS = 0o640
