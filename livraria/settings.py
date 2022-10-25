@@ -124,8 +124,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
-        "rest_framework.permissions.DjangoModelPermissions",
+       
     ],
 }
 AUTH_USER_MODEL = "core.Usuario"
@@ -133,5 +132,8 @@ AUTH_USER_MODEL = "core.Usuario"
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
-    )
+    ),
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
 }
