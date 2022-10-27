@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -154,3 +155,11 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "API para gerenciamento de livraria, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
 }
+
+env = environ.Env()
+environ.Env.read_env((os.path.join(BASE_DIR, '.env')))
+
+SECRET_KEY = env('SECRET_KEY')
+DEBUG = env('DEBUG')
+ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
+DATABASES = {'default': env.db()}
