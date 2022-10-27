@@ -1,0 +1,834 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-10-25T18:04:21.806Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "laura",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cpf\", \"Data nascimento\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-10-25T18:05:03.081Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "admin1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-10-25T18:05:49.581Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "admin1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cpf\", \"Telefone\", \"Data nascimento\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-10-25T19:49:45.234Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "J.K. Rowlling",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-10-25T19:49:58.902Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Best Seller",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-10-25T19:50:10.582Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Literatura Fantástica",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-10-25T19:50:12.967Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Harry Potter (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-10-25T19:51:19.582Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Harry Potter (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-10-25T19:51:54.999Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Harry Potter (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-10-25T19:52:55.518Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Harry Potter (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 6,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 6,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 6,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 6,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 7,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 7,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 7,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 7,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 8,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 8,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 8,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 8,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 9,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 9,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 9,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 9,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 10,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 10,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 10,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 10,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "media",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "media",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2gajapk2n0yo2ud5is6d6wklf2al8g1u",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGAXB4u3fsN5MIFqRpISrsy_rtt0oUuZ86ZebOA61LDOvIcJmIXJtnpt4uYnrntgB7Y7p2n3pZ5inxX-EEHv3XKr-vh_h1UHHVbu2IgJtDKyTNmTU6iTlv2SVkhvFeghEDIwjkwRoBF8OSLI2V1oQTs8wXAyjby:1onPgX:2mQKKnvpwyUcCTweYAAygWdvOiyTF8dmkE3SkHYDNy4",
+    "expire_date": "2022-11-08T19:34:01.003Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h6r4757tgm60wk2qh88j7678zq8x9ljn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGAXB4u3fsN5MIFqRpISrsy_rtt0oUuZ86ZebOA61LDOvIcJmIXJtnpt4uYnrntgB7Y7p2n3pZ5inxX-EEHv3XKr-vh_h1UHHVbu2IgJtDKyTNmTU6iTlv2SVkhvFeghEDIwjkwRoBF8OSLI2V1oQTs8wXAyjby:1onOCn:oHArvSV_mE-qiaV9iStP5sLDrM4Q6GrnIWu2ofT3pao",
+    "expire_date": "2022-11-08T17:59:13.406Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "edd429a1-431f-4ff0-a593-b8c8ec99dc52",
+    "public_id": "4333b73d-9d7b-433a-9d9f-a5db7ee3d69a",
+    "file": "images/4333b73d-9d7b-433a-9d9f-a5db7ee3d69a.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:46:15.800Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "7563cf4c-16d2-4ba4-a555-fd9a3f54646e",
+    "public_id": "1bed2c39-3590-4d33-9a20-5b8431c78b5b",
+    "file": "images/1bed2c39-3590-4d33-9a20-5b8431c78b5b.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:46:48.104Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "09464120-8562-4a63-9d1c-d0c51738ff45",
+    "public_id": "2b8a24c6-c438-4eb2-91ed-fb14a0663d05",
+    "file": "images/2b8a24c6-c438-4eb2-91ed-fb14a0663d05.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:48:03.192Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "6f9fd008-59e8-4072-8378-2b9e088feed6",
+    "public_id": "d7921441-4e57-4968-92bf-2d036cadc378",
+    "file": "images/d7921441-4e57-4968-92bf-2d036cadc378.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:48:19.705Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "ea65c3b8-1799-4dd5-a01c-626a44235398",
+    "public_id": "281f348e-1fbf-4b38-bbc3-362747bf4191",
+    "file": "images/281f348e-1fbf-4b38-bbc3-362747bf4191.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:50:42.464Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "2a538814-54f7-443c-aa07-284b5ef61f71",
+    "public_id": "7e8b5eca-55cb-489f-8841-efbf5c276194",
+    "file": "images/7e8b5eca-55cb-489f-8841-efbf5c276194.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:51:05.891Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "04f9f91f-8ffd-46ff-b8db-64402c235f5d",
+    "public_id": "72039db3-4a2b-4ee3-b90c-c8295716d9a7",
+    "file": "images/72039db3-4a2b-4ee3-b90c-c8295716d9a7.jpg",
+    "description": "",
+    "uploaded_on": "2022-10-25T19:52:40.478Z"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "J.K. Rowlling",
+    "email": "jkrowlling@gmail.com"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Literatura Fantástica"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "Best Seller",
+    "site": null
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "Harry Potter",
+    "ISBN": null,
+    "quantidade": 1,
+    "preco": "39.90",
+    "categoria": 1,
+    "editora": 1,
+    "capa": 7,
+    "autores": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$39801oHHoybJvmHCe8kYgX$Qkbzb3gSKudm6DD/BJCWiuAJgpl3FtcNzKOfWz+Huzg=",
+    "last_login": "2022-10-25T19:34:00.936Z",
+    "is_superuser": true,
+    "username": "laura",
+    "first_name": "",
+    "last_name": "",
+    "email": "lauramaria@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-25T17:57:53Z",
+    "cpf": "14730526961",
+    "telefone": null,
+    "data_nascimento": "2004-04-10",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$T1CZdOXu2FsS6rzvBRvotB$iBu0QfT7i5oNiFuSDMBV4ZF7mj5XqYOgPoBomdfeu/A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-25T18:05:02Z",
+    "cpf": "65151353135",
+    "telefone": "997890090",
+    "data_nascimento": "2004-10-10",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
