@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -10,12 +9,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-dexundxl)fm0u527+6p^ke-()3(bf5o*=7xpojwwi!t6=l&a3!'
+# SECRET_KEY = 'django-insecure-dexundxl)fm0u527+6p^ke-()3(bf5o*=7xpojwwi!t6=l&a3!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+# ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -71,12 +70,12 @@ WSGI_APPLICATION = 'livraria.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
@@ -156,6 +155,7 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.0",
 }
 
+import environ
 env = environ.Env()
 environ.Env.read_env((os.path.join(BASE_DIR, '.env')))
 
